@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My website</title>
+        <link rel ='stylesheet'  href = 'style.css'/>
+        <meta charset ='UTF=8'/>
+        <link rel ='icon' type ='image/jpg' href ='zdjecie.jpg'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href ='photos/spiewajacy-tanczacy-kaktus-grajacy-zabawka-baterie-biuro-ochrony-smartfona-b-iext123512259.png'>
+    </head>
+    <body>
+        <form action ='index.php' method="POST" enctype = 'multipart/form-data'>
+            <label class ='ok' for ='username'>username:</label>
+            <input class ='oke' type = 'text' id ='username' placeholder='Tutaj wpisz swoją nazwę'minlength='5' maxlength ='10'required>
+<br><br>
+            <label class ='ok' for ='password'>password:</label>
+            <input class ='oke' type ='password' id="password" placeholder='Tutaj wpisz swoje hasło'minlength='5' maxlength ='15'required>
+<br><br>
+            <label class ='ok' for ='email'>email:</label>
+            <input class ='oke' type ='email' id="email" placeholder='Tutaj wpisz swój email'required>
+<br><br>
+            <label class ='ok' for ='phone'>phone:</label>
+            <input class ='oke' type ='phone' id="phone" placeholder='Tutaj wpisz swój numer telefonu'minlength='9' maxlength ='9' pattern='[0-9]{3}[0-9]{3}[0-9]{3}'required>
+<br><br>
+            <label class ='ok' for ='bday'>birthdate:</label>
+            <input class ='oke' type ='date' id="bday" placeholder='Tutaj wpisz swoją datę urodzin' required>
+<br><br>
+            <label class ='ok' for ='number'>Twój wiek:</label>
+            <input class ='oke' type ='number' id="number" placeholder='Podaj swój wiek' min="-10" max ='99' required>
+<br><br>
+            <label class ='ok' for ='Twojaplec'>Twoja płeć:</label>
+            <label class ='okee' for ='Mężczyzna'>Mężczyzna</label>    
+            <input class ='okee' type ='radio' id = 'Mr.' value ='Mężczyzna' name="title">
+            <label class ='okee' for ='Kobieta'>Kobieta</label>    
+            <input class ='okee' type ='radio' id = 'Ms.' value ='Kobieta' name="title">
+            <label class ='okee' for ='Helikopter bojowy'>Helikopter bojowy</label>    
+            <input class ='okee' type ='radio' id = 'Helikopter bojowy' value ='Helikopter bojowy' name="title" required>
+<br><br>
+            <label class ='ok' class ='ok' for ='payment'>Payment:</label>
+            <select id ='payment' required>
+                <option value ='Visa'>Visa</option>
+                <option value ='Master card'>Master card</option>
+                <option value ='Gift card'>Gift card</option>
+            </select>
+<br><br>
+            <label class ='ok' for ='zaznacz'>Czy jesteś człowiekiem?</label>
+            <input class ='o' type ='checkbox' id = 'zaznacz' required>
+<br><br>
+            <label class ='ok' for ='comment'>Comment:</label>
+            <textarea id = 'comment' rows ='3' cols='25' required></textarea>
+<br><br>
+            <label class ='ok' for ='file'>Wstaw swój plik</label>
+            <input class ='oke'type ='file' id ='file'  accept ='image/png, image/jpeg' required>
+<br><br>
+            <input class ='ok' type ='reset'><br><br>
+            <input class ='ok' type ='submit'>
+        </form>
+        <hr>
+        <h1>Kolorowanie tekstu:</h1>
+        <p id ='p1' >#ff6347</p>
+        <p id ='p2' >rgb(255, 255,20)</p>
+        <p id ='p3' >tomato</p>
+        <p id ='p4' >#ff6347</p>
+        <hr>
+        <h1>Siema </h1>
+        <p>losowy tekst</p>
+        <hr>
+        <h1 class ='dobra'>Witam</h1>
+
+        <pre>Jakiś losowy text Jakiś losowy text
+             Jakiś losowy text Jakiś losowy text
+             Jakiś losowy text Jakiś losowy text
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text 
+             Jakiś losowy text Jakiś losowy text </pre>
+             <hr>
+             <h1 class ='eeee'>Bro code</h1>
+             <b><pre><div id ='box1'>Milionerami nazywa się osoby,
+których wartość majątku netto przekracza
+1 milion danej waluty.
+Według danych statystycznych przytaczanych
+przez KPMG w raporcie o rynku dóbr luksusowych 
+w 2020 r. liczba milionerów w Polsce
+ przekroczyła 35 tysięcy.</div></pre></b>
+
+ <hr>
+ <img src="kot.png" height="150px" id ='img1'>
+ <p class ='okkkkkk'>Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text </p>
+ <p class ='okkkkkk'>Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text </p>
+ <img src="spiewajacy-tanczacy-kaktus-grajacy-zabawka-baterie-biuro-ochrony-smartfona-b-iext123512259.png" height="150px" id ='img2'>
+ <p class ='okkkkkk'>Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text </p>
+ <p class ='okkkkkk'>Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text Jakiś losowy text </p>
+<hr>
+<div id ='box2'>
+    <div id ='box3'></div>
+</div>
+<hr><br><br>
+<div id ='container'>
+    <p>This is #1</p>
+    <p>This is #2</p>
+    <div>
+        <p>This is #3</p>
+    </div>
+</div>
+    <p>This is #4</p>
+    <p>This is #5</p>
+    <br><BR><hR>
+        <a target ='blank' href ='https:// google.com'>Google</a>
+    <br><Br><hr>
+        <ul>
+            <li>This is #1</li>
+            <li>This is #2</li>
+            <li>This is #3</li>
+            <li>This is #4</li>
+            <li>This is #5</li>
+            <li>This is #6</li>
+            <li>This is #7</li>
+            <li>This is #8</li>
+            <li>This is #9</li>
+        </ul>
+        <br><BR><Hr>
+        <div id ='gretting'>Hover here
+            <p>Hello</p>
+        </div>
+        <br><Br><Br><hr>
+            <h1>Hello</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus architecto corporis amet repellat rem non quisquam, libero magni laboriosam. Praesentium, consequuntur? At saepe et voluptates impedit explicabo commodi, incidunt repellat.</p>
+            <ul id = 'fruit'>
+                <li id = 'apple'></li>apple</li>
+                <li id = 'orange'></li>orange</li>
+                <li id = 'banana'></li>banana</li>
+            </ul>
+            <h1>This is page #1</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatem sequi nemo ea deserunt placeat pariatur dignissimos nam dicta architecto sapiente excepturi id voluptatibus possimus eius quae, maiores sit expedita! </p>
+            <div class ='pagination'>
+                <a href="nauka.html"><</a>
+                <a href="nauka.html" class ='active'>1</a>
+                <a href="page2.html">2</a>
+                <a href="page3.html">3</a>
+                <a href="page4.html">4</a>
+                <a href="page5.html">5</a>
+                <a href="page2.html">></a>
+            </div>
+            <br><Br><hr>
+                <div class ='dropdown'>
+                    <button>Food</button>
+                    <div class ='content'>
+                        <a href =''>Apple</a>
+                        <a href =''>Orange</a>
+                        <a href =''>Banana</a>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, veniam harum alias corporis iste aut doloremque at quam id dolor suscipit eum nobis adipisci accusantium laudantium quae aliquid nemo perferendis.</p>
+                <h1 class ='dobrze'>Bro code</h1>
+
+                <nav class ='navbar'>
+                    <ul>
+                        <li><a href="nauka.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Products.html">Products</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <main>
+                    <h3>This is a Home page</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum incidunt necessitatibus eligendi! Tenetur asperiores fugiat placeat nemo reiciendis, distinctio qui mollitia voluptates voluptas quisquam neque sequi blanditiis pariatur, omnis perspiciatis.</p>
+
+                </main>
+
+                <header>
+                    <h2>header</h2>
+                </header>
+
+                <nav class ='navbar2'>
+                    
+                </nav>
+
+                <main>
+                    <aside>
+                    This is aside
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt, rerum dolorem necessitatibus impedit esse! Assumenda tempora iste amet dolor, maiores, dolorem quidem a fugit illum cumque eveniet sapiente architecto.</p>
+                    </aside>
+                    <section>
+                    This is section
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium eum, voluptatem saepe repellat sequi iusto, labore perferendis explicabo, nostrum aliquid? Ab esse vel, consequatur nihil iste ipsam ducimus natus!</p>
+                    </section>
+                    <article>
+                    This is an article
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque excepturi ab debitis dolore beatae, eum hic nihil! Culpa mollitia vel dolor natus voluptate nostrum. Similique doloribus error dolor sequi modi!</p>
+                    </article>
+
+                </main>
+
+                <footer>
+                    Footer
+                </footer>
+                <div class ='gallery'>
+                    <a target="_blank" href ='photos/salad.jpg'>
+                    <img src="photos/salad.jpg" alt="salad">
+                    </a>
+                    <div class ='description'>Salads</div>
+                </div>
+                <div class ='gallery'>
+                    <a target="_blank" href ='photos/soup.jpg'>
+                    <img src="photos/soup.jpg" alt="soup">
+                    </a>
+                    <div class ='description'>Soup</div>
+                </div>
+                <div class ='gallery'>
+                    <a target="_blank" href ='photos/pizza.jpg'>
+                    <img src="photos/pizza.jpg" width= 3000px alt="pizza">
+                    </a>
+                    <div class ='description'>Pizzas</div>
+                </div>
+                <a href ='take on me.html'>TAKE ON ME.HTML</a>
+                
+</body>
+</html>
